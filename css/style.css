@@ -17,8 +17,18 @@ a {
     /* border: 1px solid red; */
     height: 25px;
     background-color: black;
-    box-shadow: 0px 3px 10px black;
+box-shadow: 0px 3px 10px black;
+transition: all 3s ease;
 }
+ 
+
+ .right-navbar a {
+    transition: all 3s ease;
+ }
+
+ .right-navbar:hover {
+    color: red;
+ }
 
 
 .left-navbar {
