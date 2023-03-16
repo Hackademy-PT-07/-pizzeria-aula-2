@@ -22,11 +22,11 @@ transition: all 3s ease;
 }
  
 
- .right-navbar a {
-    transition: all 3s ease;
+ .hide-right-navbar a {
+    transition: all 3ms ease;
  }
 
- .right-navbar:hover {
+ .hide-right-navbar:hover {
     color: red;
  }
 
